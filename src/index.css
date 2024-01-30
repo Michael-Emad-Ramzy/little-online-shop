@@ -9,8 +9,8 @@ body {
   font-family: 'Merriweather', serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: linear-gradient(#31220b, #382e1b);
-  color: #f3e7d4;
+  background: linear-gradient( #cbcbcb,#1c4882);
+  color: #45565d;
   min-height: 100vh;
 }
 
@@ -34,24 +34,24 @@ body {
 h1 {
   text-align: center;
   text-transform: uppercase;
-  color: #edbf68;
+  color: #1c4f92  ;
   text-shadow: 0 0 4px rgba(35, 34, 34, 0.4);
   font-size: 2.5rem;
   margin: 0;
 }
 
 #main-header button {
-  background: #edbf68;
+  background: #1f5091;
   border: none;
   border-radius: 5px;
   padding: 0.5rem 1.5rem;
-  color: #201e1a;
+  color: #fffefb;
   font-size: 1.25rem;
   cursor: pointer;
 }
 
 #main-header button:hover {
-  background: #f5b744;
+  background: #0f2c52;
 }
 
 #shop {
@@ -61,7 +61,7 @@ h1 {
 
 #shop h2 {
   font-size: 1.5rem;
-  color: #a59b8b;
+  color: #10314d;
   text-transform: uppercase;
 }
 
@@ -76,7 +76,7 @@ h1 {
 
 .product {
   height: 100%;
-  background: #5f4e33;
+  background: #192230;
   border-radius: 6px;
   display: flex;
   flex-direction: column;
@@ -98,13 +98,13 @@ h1 {
 
 .product-content h3 {
   font-size: 1.25rem;
-  color: #fbd392;
+  color: #ffffff;
   margin-bottom: 0.15rem;
 }
 
 .product-price {
   font-size: 1rem;
-  color: #d1b68b;
+  color: #8bc1d1;
   margin: 0;
 }
 
@@ -113,22 +113,23 @@ h1 {
 }
 
 .product-actions button {
-  background: #f4b115;
+  background: #2f62a4;
   border: none;
   border-radius: 5px;
   padding: 0.5rem 1rem;
-  color: #201e1a;
+  color: #bdc9db;
   font-size: 1rem;
   cursor: pointer;
 }
 
 .product-actions button:hover {
-  background: #f5b744;
+  background: #204370;
+  color: #f8fafd ;
 }
 
 #modal {
   width: 30%;
-  background: #d3b17b;
+  background: #1f4f8d;
   border: none;
   border-radius: 6px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -141,7 +142,7 @@ h1 {
 
 #modal h2 {
   font-size: 1.5rem;
-  color: #4f3807;
+  color: #c1d7f3;
   text-transform: uppercase;
   margin: 0;
 }
@@ -160,7 +161,7 @@ h1 {
   justify-content: space-between;
   align-items: center;
   padding: 0.5rem 1rem;
-  background: #fbd392;
+  background: #1f4f8d;
   border-radius: 5px;
   font-size: 0.9rem;
 }
@@ -176,13 +177,13 @@ h1 {
   background: transparent;
   border: none;
   border-radius: 5px;
-  color: #201e1a;
+  color: #0e2440;
   cursor: pointer;
   font-size: 1.1rem;
 }
 
 .cart-item-actions button:hover {
-  background: #f5b744;
+  background: #8d8c8c;
 }
 
 .cart-item-actions button:first-of-type {
@@ -204,17 +205,17 @@ h1 {
   background: transparent;
   border: none;
   border-radius: 5px;
-  color: #201e1a;
+  color: #102848;
   cursor: pointer;
   font-size: 1.1rem;
 }
 
 #modal form button:hover {
-  color: #453719;
+  color: #0b1727;
 }
 
 #modal form button:last-of-type {
-  background: #271e07;
+  background: #102848;
   border: none;
   border-radius: 5px;
   padding: 0.5rem 1rem;
@@ -224,7 +225,7 @@ h1 {
 }
 
 #modal form button:last-of-type:hover {
-  background: #382e1b;
+  background: #081627;
 }
 
 #checkout {

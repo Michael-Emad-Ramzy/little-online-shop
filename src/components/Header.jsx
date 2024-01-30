@@ -30,7 +30,7 @@ export default function Header({ cart, onUpdateCartItemQuantity }) {
       <header id="main-header">
         <div id="main-title">
           <img src="logo.png" alt="Elegant model" />
-          <h1>Elegant Context</h1>
+          <h1>Clothing Online</h1>
         </div>
         <p>
           <button onClick={handleOpenCartClick}>Cart ({cartQuantity})</button>
